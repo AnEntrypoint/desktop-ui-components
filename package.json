@@ -6,11 +6,22 @@
   "exports": {
     ".": "./src/index.js"
   },
-  "files": ["src", "dist"],
+  "files": [
+    "src",
+    "dist"
+  ],
   "description": "Shared UI components for Sequential Desktop applications",
-  "keywords": ["sequential-desktop", "components", "ui", "hyperapp"],
+  "keywords": [
+    "sequential-desktop",
+    "components",
+    "ui",
+    "hyperapp"
+  ],
   "license": "MIT",
   "peerDependencies": {
     "hyperapp": "^1.2.10"
+  },
+  "dependencies": {
+    "hyperapp": "^2.0.8"
   }
 }
